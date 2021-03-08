@@ -3,6 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
+:root{
+    --font1: 'Lato', sans-serif;
+}
+body{
+    font-family: var(--font1);
+}
 img{
     max-width: 100%;
     height: auto;
@@ -17,7 +23,22 @@ a{
     padding: 0 20px;
     margin: 0 auto;
 }
-
+h2{
+    color: rgb(253, 195, 4);
+    font-size: 32px;
+    margin: 20px 0;
+    font-weight: 900;
+}
+h3{
+    font-size: 20px;
+    padding: 10px;
+}
+p{
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 25px;
+    color: rgb(26, 24, 24);
+}
 /**********************************/
 /*******    MAIN HEADER   *********/
 .main-header{
@@ -45,4 +66,113 @@ a{
 }
 .btn-enlaces{
     display: flex;
+}
+/***************************************/
+/*********    MAIN HERO BANNER   *******/
+.main-hero-banner{
+    background-color: #5050e9;
+    width: 100%;
+    height: 100vh;
+}
+/***************************************/
+/*********    MAIN EDUCATIONAL   *******/
+.main-educational-proposal{
+    background-color: red;
+    width: 100%;
+}
+.educational-proposal{
+    display: flex;
+}
+.educational-img,.educational-text{
+    width: 50%;
+    height: 300px;
+    background-color: rosybrown;
+}
+.educational-text{
+    background-color: sandybrown;
+}
+/***************************************/
+/************    MAIN LEVEL   **********/
+.main-level{
+    background-color: #5050e9;
+    width: 100%;
+    padding: 30px 0;
+}
+.main-levels{
+    background-color: #e2dcdc
+}
+
+.main-levels h2{
+    color: rgb(119, 118, 118);
+}
+.level{
+    text-align: center;
+    padding: 0 220px 50px;
+}
+.level-card{
+    height: 360px;
+    display: flex;
+}
+.level-card .card-img,
+.level-card .card-text{
+    width: 50%;
+}
+.level-card .card-text{
+    text-align: center;
+    padding: 20px;
+}
+/***************************************/
+/*********    MAIN DESCRIPTION   *******/
+.main-description{
+    width: 100%;
+    padding: 40px 0 10px;
+    
+}
+.card-description-global{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card-description{
+    max-width: 300px;
+    width: 100%;
+    background-color: rgb(238, 163, 0);
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+/***************************************/
+/***********    MAIN STUDENT   *********/
+.main-student{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #e2dcdc;
+
+}
+.student-enlaces,.student-info{
+    width: 50%;
+
+}
+.student-enlaces a{
+    font-size: 20px;
+    display: block;
+    padding: 15px;
+    background-color: yellow;
+}
+/***************************************/
+/***********    MAIN FOOTER   **********/
+.main-footer{
+    padding: 20px 0;
+}   
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.footer img{
+    width: 150px;
+}
+.pie-pag{
+    background-color: blue;
+    text-align: center;
 }
