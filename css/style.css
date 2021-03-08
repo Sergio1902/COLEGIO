@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+.main-container{
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+/**********************************/
+/*******    MAIN HEADER   *********/
+.main-header{
+    width: 100%;
+    position: fixed;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.logo-header img{
+    width: 70px;
+}
+.nav-header{
+    display: flex;
+}
+.nav-header a{
+    display: block;
+    padding: 5px;
+}
+.nav-header a:not(:last-child){
+    margin-right: 10px;
+}
+.btn-enlaces{
+    display: flex;
+}
